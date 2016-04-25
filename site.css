@@ -1,0 +1,15 @@
+.player-card img{
+    display: inline-block;
+    border: 1px;
+    border-color: black;
+    border-radius: 50%;
+    background-color: khaki
+}
+.panhead {
+    background-color: lightyellow;
+    align-content: center;
+    border-radius: 5%;
+    border: 3px;
+    border-color: aqua;
+    height: 30px;
+}
