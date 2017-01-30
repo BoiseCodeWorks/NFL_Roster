@@ -1,0 +1,3 @@
+
+var playersCtrl = new PlayersController();
+
