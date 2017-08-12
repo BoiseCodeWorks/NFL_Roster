@@ -68,6 +68,7 @@ var PlayersService = function(){
     playersData.filter(function(player){
       if(player.team == teamName){
         return true;
+      }
     });
   }
   
@@ -75,6 +76,7 @@ var PlayersService = function(){
     playersData.filter(function(player){
       if(player.position == position){
         return true;
+      }
     });
   }
 } 
@@ -91,6 +93,7 @@ var PlayersService = function(endpointUri, callback){
     	playersData.filter(function(player){
     	  if(player.team == teamName){
     	    return true;
+        }
     	});
     }
     
@@ -98,6 +101,7 @@ var PlayersService = function(endpointUri, callback){
         playersData.filter(function(player){
           if(player.position == position){
             return true;
+          }
         });
     }
     
