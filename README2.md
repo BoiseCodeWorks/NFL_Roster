@@ -137,7 +137,7 @@ function ready(){
     
     $('some-button').on('click',function(){
       var teamSF = playerService.getPlayersByTeam("SF");
-    }
+    })
 }
     
 ```
